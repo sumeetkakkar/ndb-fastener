@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "test fixture",
+  "main": "index.js",
+  "dependencyBundle": {
+    "name": "dummy",
+    "version": "v4.2.0",
+    "global": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "pkg2": "file:../packages/pkg2"
+  },
+  "dependencies": {
+    "express-session": "^1.17.2",
+    "pkg1": "file:../packages/pkg1"
+  }
+}

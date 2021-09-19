@@ -1,0 +1,11 @@
+{
+  "name": "bundle",
+  "version": "1.0.0",
+  "description": "test bundle",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg1": "file:../packages/pkg1",
+    "pkg2": "file:../packages/pkg2"
+  }
+}

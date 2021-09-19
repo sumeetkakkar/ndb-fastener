@@ -1,0 +1,36 @@
+{
+  "name": "ndb-fastener",
+  "version": "1.0.0",
+  "description": "Fastens node.js dependency bundle during application startup.",
+  "main": "index.js",
+  "scripts": {
+    "cover": "nyc --reporter=lcov npm test && nyc report",
+    "coverage": "npm run cover",
+    "lint": "eslint index.js lib test",
+    "pretest": "npm run lint",
+    "test": "mocha test --recursive --reporter=spec --ignore test/fixtures/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sumeetkakkar/ndb-fastener.git"
+  },
+  "keywords": [
+    "Node.js",
+    "dependency",
+    "bundle",
+    "packages"
+  ],
+  "author": "sumeetkakkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumeetkakkar/ndb-fastener/issues"
+  },
+  "homepage": "https://github.com/sumeetkakkar/ndb-fastener#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.1",
+    "nyc": "^15.1.0",
+    "sinon": "^11.1.2"
+  }
+}
